@@ -1,6 +1,8 @@
 const { networkConfig, autoFundCheck } = require('../helper-hardhat-config')
 const { ethers, getNamedAccounts } = require('hardhat')
 
+// hardhat-deploy module
+// https://hardhat.org/plugins/hardhat-deploy.html
 module.exports = async ({
   getNamedAccounts,
   deployments
